@@ -35,33 +35,36 @@
 						</header>
 						
 						<hr />
-						<h2>Send me an E-mail</h2>
-						<form id="formemail" method="post" action="//formspree.io/igorgabriel@outlook.com" >
-                    	<input type="hidden" name="_next" value="//igorgcosta.github.io/thanks.html" />
-							<div class="field">
-								<input type="text" name="name" id="name" placeholder="Name" />
-							</div>
-							<div class="field">
-								<input type="email" name="_replyto" id="email" placeholder="Email" />
-							</div>
-							<!--<div class="field">
-								<div class="select-wrapper">
-									<select name="department" id="department">
-										<option value="">Department</option>
-										<option value="sales">Sales</option>
-										<option value="tech">Tech Support</option>
-										<option value="null">/dev/null</option>
-									</select>
-								</div>
-							</div>-->
-							<div class="field">
-								<textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
-							</div>
-							<ul class="actions">
-								<li><a href="#" onclick="$('#formemail').submit()" class="button">Send</a></li>
-							</ul>
-						</form>
-						<hr />
+                 	<div id="emailbox" style="display: none;">
+                    <h2>Send me an E-mail</h2>
+                    <form id="formemail" method="post" action="//formspree.io/igorgabriel@outlook.com" >
+                       <input type="hidden" name="_next" value="//igorgcosta.github.io/thanks.html" />
+                       <div class="field">
+                          <input type="text" name="name" id="name" placeholder="Name" />
+                       </div>
+                       <div class="field">
+                          <input type="email" name="_replyto" id="email" placeholder="Email" />
+                       </div>
+                       <!--<div class="field">
+                          <div class="select-wrapper">
+                             <select name="department" id="department">
+                                <option value="">Department</option>
+                                <option value="sales">Sales</option>
+                                <option value="tech">Tech Support</option>
+                                <option value="null">/dev/null</option>
+                             </select>
+                          </div>
+                       </div>-->
+                       <div class="field">
+                          <textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
+                       </div>
+                       <ul class="actions">
+                          <li><a href="#" onclick="$('#formemail').submit()" class="button">Send</a></li>
+                       </ul>
+                    </form>
+                    <hr />
+                 	</div>
+						
 						
 						<footer>
 							<ul class="icons">
